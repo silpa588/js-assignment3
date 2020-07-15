@@ -1,0 +1,166 @@
+<html>
+
+    <head>
+        <title>Methods in Arrays and Strings </title>
+    </head>
+
+    <body>
+        <h1>Methods in Arrays </h1>
+        </br>
+         <p> Pop() 
+         The pop() method removes the last element from an array.
+         
+         Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+              var x = fruits.pop();
+              console.log(x) ;</p>
+              </br>
+              </br>
+
+        
+
+          <p>Push:
+                  The push() method adds a new element to an array (at the end).</p>
+
+         Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+              var x = fruits.push("Kiwi");
+              console.log(x);</p>
+              </br>
+            
+           <p>Shift() :
+        <p>The shift() method removes the first array element and "shifts" all other elements to a lower index.
+        
+        Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+            var x = fruits.shift();
+            console.log(x);</p>
+            </br></br>
+
+        <p>Unshift():
+                    The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements.
+
+        Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits.unshift("Lemon"); </p>
+            </br></br>
+
+        <p>Length:
+                    The length property provides an easy way to append a new element to an array.
+
+        Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+            fruits[fruits.length] = "Kiwi";
+            </p>
+            </br></br>
+
+        <p>Delete :
+                  Since JavaScript arrays are objects, elements can be deleted by using the JavaScript operator delete.
+
+            Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+                delete fruits[0];</p>  
+                </br>
+                </br>
+        <p>Splice():
+                     The splice() method can be used to add new items to an array.
+        
+        Ex:var fruits = ["Banana", "Orange", "Apple", "Mango"];
+             fruits.splice(2, 0, "Lemon", "Kiwi");</p>
+              </br>
+                </br>
+
+        <p> Concat(): 
+                     The concat() method creates a new array by merging (concatenating) existing arrays. 
+         
+         Ex:var myGirls = ["Cecilie", "Lone"];
+              var myBoys = ["Emil", "Tobias", "Linus"];
+                 var myChildren = myGirls.concat(myBoys);</p>
+        </br>
+        </br>
+
+        <p>slice():
+                  The slice() method creates a new array. It does not remove any elements from the source array.</p>
+
+         Ex:var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+             var citrus = fruits.slice(3);</p>
+
+
+        <p>Indexof():
+        The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+            Example:
+                    var str = "Please locate where 'locate' occurs!";
+                    var pos = str.indexOf("locate");</p>
+        
+        <p>LastIndexof():
+                        The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+
+                Example:
+                        var str = "Please locate where 'locate' occurs!";
+                            var pos = str.lastIndexOf("locate");</p>
+        <p>Search():The search() method searches a string for a specified value and returns the position of the match:
+
+            Example:
+                    var str = "Please locate where 'locate' occurs!";
+                        var pos = str.search("locate");</p>
+        
+        <p>substr():If you omit the second parameter, substr() will slice out the rest of the string.
+
+            Example:
+                    var str = "Apple, Banana, Kiwi";
+                        var res = str.substr(7);
+                        </p>
+        <p>Replace():The replace() method replaces a specified value with another value in a string:
+
+                    Example:
+                            str = "Please visit Microsoft!";
+                                var n = str.replace("Microsoft", "W3Schools");</p>
+
+        <p>toUpperCase(): A string is converted to upper case with toUpperCase():
+
+           Ex:
+              var text1 = "Hello World!";       // String
+               var text2 = text1.toUpperCase();  // text2 is text1 converted to upper</p>
+
+        <p>toLowercase(): A string is converted to lower case with toLowerCase():
+
+                Example
+                        var text1 = "Hello World!";       // String
+                            var text2 = text1.toLowerCase();</p>
+
+        <p>String.trim():
+                     The trim() method removes whitespace from both sides of a string:
+
+                   Example
+                         var str = "       Hello World!        ";
+                          alert(str.trim());</p>
+
+
+        <p>charAt():The charAt() method returns the character at a specified index (position) in a string.
+
+                Example
+                      var str = "HELLO WORLD";
+                        str.charAt(0); </p>
+        
+        <p>charCodeAt():The charCodeAt() method returns the unicode of the character at a specified index in a string:
+
+
+               Example
+                    var str = "HELLO WORLD";
+
+                      str.charCodeAt(0);
+                      </p>
+
+
+        
+
+
+
+
+
+
+              
+
+
+
+
+
+    </body>
+
+
+</html> 
